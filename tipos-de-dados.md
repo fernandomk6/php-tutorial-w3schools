@@ -43,3 +43,17 @@ Valores falsy em PHP são:
 | "" |
 | null |
 | [] |
+
+## Funções de checagem de tipo
+
+- gettype - retorna o tipo como string
+
+*Ambos aqui em baixo retornam boolean*.
+
+- is_string
+- is_integer
+- is_float
+- is_bool
+- is_array
+- is_object
+- is_null
