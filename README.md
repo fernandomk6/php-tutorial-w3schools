@@ -2,4 +2,5 @@
 
 [Fonte](https://www.w3schools.com/php/default.asp)
 
-Estudo completo sobre o tutorial PHP do site w3schools.
+Estudo feito encima do tutorial do w3schools para revisar os
+principais conceitos da linguagem PHP.
