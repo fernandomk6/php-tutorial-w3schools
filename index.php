@@ -1,19 +1,13 @@
 <?php 
 require_once "./helpers.php";
 
-class Animal {
-  const NAME = "Animal Base";
+$a = [1,2,3];
+$b = $a;
 
-  public static function secret () {
-    echo "Animal base here";
-  }
+print_r($a); echo "<br>";
+print_r($b); echo "<br>";
 
-  public function get_secret () {
-    self::secret();
-  }
-}
+$a[] = 55;
 
-$animal = new Animal();
-
-echo $animal->get_secret(); echo "<br>";
-echo Animal::secret();
+print_r($a); echo "<br>";
+print_r($b); echo "<br>";
